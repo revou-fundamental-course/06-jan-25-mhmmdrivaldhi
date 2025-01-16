@@ -495,7 +495,7 @@ footer .credit a:hover {
 /* Responsive Layout */
 /* Tablet */
 /* Hero Section */
-@media (max-width: 768px) {
+@media only screen and (max-width: 768px) {
     .content {  
     background-color: lightgray;
     opacity: 0.8;
