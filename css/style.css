@@ -8,7 +8,7 @@ body {
     scroll-behavior: smooth;
 }
 
-.Navbar {
+.navbar {
     background-color: #072f58;
     margin: 50px 30px;
     padding: 3px 30px;
@@ -604,36 +604,27 @@ footer .credit a:hover {
     .contact .row form {
         padding-top: 0;
         margin-top: 10px;
+        width: 89%;
     }
     }
 
     /* Mobile */
 
-    @media (max-width: 468px){
+    @media only screen and (max-width: 320px){
         
-    .Navbar {
+    .navbar {
         background-color: #072f58;
         width: 100%;
-        padding: 30px 100px;
+        padding: 30px 300px;
         opacity: 0.9;
         box-shadow: #064584 5px 4px;
-        margin-left: 210px;
+        margin: 0;
     }
-
-    .logo-navbar {
-        margin-left: 45px;
-    }
-
-    .navbar-link {
-        margin-left: 50px;
-    }
-
-    .container {
-        display: inline-block;
-        margin-left: 150px;
-        margin-right: 200px;
-    } 
     
+    .navbar .logo-navbar {
+        margin-right: 80px;
+    }
+
     .content-about .header-about h1 {
         font-size: 8px;
     }
@@ -641,19 +632,25 @@ footer .credit a:hover {
     .content {
         display: flex;
         width: 100%;
-        padding: 100px;
-        margin-left: 210px;
+        padding: 250px;
+        margin-left: 50px;
+    }
+
+    .content .homepage {
+        margin: 0;
+        padding: 0;
+    }
+
+    .content .aside img {
+        margin: 0;
+        padding: 50px;
     }
 
     .content-about {
         display: inline-block;
-        width: 230%;
+        width: 288%;
         padding: 0;
         padding: 0;
-    }
-
-    .content-about .content-tech {
-        margin-left: 50px;
     }
 
     .content-about .header-about h1 {
@@ -663,28 +660,28 @@ footer .credit a:hover {
 
     .content-article {
         display: inline-block;
-        width: 227%;
+        width: 284%;
     }
 
     .content-article .header-article h1 {
-        font-size: 30px;
-        margin-left: 100px;
+        font-size: 20px;
+        margin-left: 90px;
     }
 
     .content-article .content-news .news-card {
-        margin-left: 135px;
+        margin-left: 115px;
         padding: 0;
         margin-bottom: 50px;
     }
 
     .content-gallery {
         display: inline-block;
-        width: 227%;
+        width: 284%;
     }
 
     
     .gallery-top {
-        margin-left: 150px;
+        margin-left: 70px;
     }
 
     .gallery-top .gallery-one {
@@ -698,7 +695,7 @@ footer .credit a:hover {
     }
 
     .gallery-bottom {
-        margin-left: 140px;
+        margin-left: 65px;
     }
 
     .gallery-bottom .gallery-three {
@@ -714,23 +711,24 @@ footer .credit a:hover {
     }
 
     .contact {
-        width: 152%;
+        width: 170%;
         padding: 0;
     }
 
     .contact h2  {
-        margin-left: 80px;
+        margin-left: 100px;
         margin-top: 10px;
     }
     .contact p{
-        margin-left: 320px;
+        margin-left: 250px;
         margin-top: 20px;
     }
 
     .contact .row {
         flex-wrap: wrap;
-        margin-left: 300px;
+        margin-left: 250px;
         width: 50%;
+        margin-bottom: 20px;
     }
     .contact .row .maps {
         height: 20rem;
@@ -738,12 +736,12 @@ footer .credit a:hover {
     }
 
     .contact .row form {
-        width:90%;
+        width: 85%;
         margin: auto;
     }
 
     footer {
-        width: 221%;
+        width: 275%;
     }
 }
 
